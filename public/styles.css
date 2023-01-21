@@ -1,0 +1,152 @@
+
+*{
+    background-color: #272928;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.navBar h1{
+    color: #CB0606;
+}
+
+.imgOnizuka{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    gap : 10px;
+}
+
+.descriptionGTO{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+   width: 750px;
+   gap : 50px;
+}
+
+.descriptionGTO h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #CB0606;
+}
+
+.displayCenter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap : 60px;
+}
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+
+nav{
+    width: 100%;
+    margin: 0px auto 40px auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block; 
+    text-decoration: none;
+    color: #CB0606;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+    color: #CB0606;
+    border-bottom: 2px solid #CB0606;
+}
+
+.conteneur{
+  margin: 0px 20px;
+  height: 1500px;
+}
+
+.gridGTO{
+width: 700px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 20px;
+margin: auto;
+}
+
+.descriptifGridGTO{
+    color: aliceblue;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.descriptifGridGTO h1{
+    color: #CB0606;
+}
+
+.GTObike{
+  margin-left: 20%;
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageGTO{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    /* padding: 20px; */
+    gap: 30px;
+}
